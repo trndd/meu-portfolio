@@ -15,7 +15,7 @@ export default function Main() {
       <Layout>
         <SEO title="Bem vindo" />
         <Header className="d-flex justify-content-center align-items-center">
-          <ProfileImage src="https://i.imgur.com/ltSnKYz.png" />
+          <ProfileImage src="https://imgur.com/4W8vZDS.png" />
           <Name>
             <b>Matheus</b> Trindade dos Santos
           </Name>
@@ -60,9 +60,11 @@ const Header = styled.div`
   flex-direction: column;
 `
 
-const ProfileImage = styled.img`
+const ProfileImage = styled.div`
   width: 150px;
   height: 150px;
+  background-image: url(${props => props.src});
+  background-size: cover;
   border-radius: 3px;
 `
 
