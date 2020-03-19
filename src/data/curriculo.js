@@ -34,6 +34,6 @@ export default [
     desc: "Criação de interfaces para sistema, site e blog utilizando as tecnologias: Reactjs e Gatsby",
     date: "Fev2020 - até o momento",
     icon: <FaCode />,
-    color: "#5f0a0e",
+    color: "#fca000",
   },
 ]

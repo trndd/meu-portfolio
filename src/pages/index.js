@@ -3,7 +3,9 @@ import styled from "styled-components"
 import { Container } from "react-bootstrap"
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa"
 import { VerticalTimeline } from "react-vertical-timeline-component"
+import Fade from "react-reveal/Fade"
 
+import profileImage from "../images/eu.png"
 import TimelineItem from "../components/Timeline"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -15,24 +17,35 @@ export default function Main() {
       <Layout>
         <SEO title="Bem vindo" />
         <Header className="d-flex justify-content-center align-items-center">
-          <ProfileImage src="https://imgur.com/4W8vZDS.png" />
-          <Name>
-            <b>Matheus</b> Trindade dos Santos
-          </Name>
-          <Desc className="text-muted">
-            Desenvolvedor Front-End na Advice Group
-          </Desc>
-          <Social>
-            <IconArea href="https://github.com/trndd" target="_blank">
-              <FaGithub />
-            </IconArea>
-            <IconArea href="https://www.linkedin.com/in/trndd/" target="_blank">
-              <FaLinkedinIn />
-            </IconArea>
-            <IconArea href="https://twitter.com/trnddev" target="_blank">
-              <FaTwitter />
-            </IconArea>
-          </Social>
+          <Fade big>
+            <ProfileImage src={profileImage} />
+          </Fade>
+          <Fade big>
+            <Name>
+              <b>Matheus</b> Trindade dos Santos
+            </Name>
+          </Fade>
+          <Fade big>
+            <Desc className="text-muted">
+              Desenvolvedor Front-End na Advice Group
+            </Desc>
+          </Fade>
+          <Fade big>
+            <Social>
+              <IconArea href="https://github.com/trndd" target="_blank">
+                <FaGithub />
+              </IconArea>
+              <IconArea
+                href="https://www.linkedin.com/in/trndd/"
+                target="_blank"
+              >
+                <FaLinkedinIn />
+              </IconArea>
+              <IconArea href="https://twitter.com/trnddev" target="_blank">
+                <FaTwitter />
+              </IconArea>
+            </Social>
+          </Fade>
         </Header>
       </Layout>
       <Body>
@@ -52,7 +65,7 @@ const Header = styled.div`
   min-height: 35vh;
   padding: 40px 0px;
   border-bottom: 1px solid #f5f5f5;
-  margin-bottom: -25px;
+  margin-bottom: -23px;
 
   display: flex;
   justify-content: center;
@@ -85,5 +98,5 @@ const IconArea = styled.a`
 `
 
 const Body = styled.div`
-  background: #f4fcff;
+  background: white;
 `
