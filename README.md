@@ -9,8 +9,15 @@
 
 ## ⚙️ Feito com
 
-- [React](https://pt-br.reactjs.org/)
-  - [Gatsby](https://pt-br.reactjs.org/)
+* [React](https://pt-br.reactjs.org/)
+  - [React bootstrap](https://react-bootstrap.github.io/)
+  - [React icons](https://react-icons.netlify.com/)
+  - [React vertical timeline component](https://www.npmjs.com/package/react-vertical-timeline-component)
+  - [React reveal](https://www.react-reveal.com/)
+  - [React element flying](https://github.com/trndd/react-element-flying)
+  - [Styled components](https://www.styled-components.com/)
+
+* [Gatsby](https://pt-br.reactjs.org/)
   
  
 <br>    
