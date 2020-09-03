@@ -32,11 +32,11 @@ export default function Main() {
           </Fade>
           <Fade big>
             <Social>
-              <IconArea href="https://github.com/trndd" target="_blank">
+              <IconArea href="https://github.com/trindadematheus" target="_blank">
                 <FaGithub />
               </IconArea>
               <IconArea
-                href="https://www.linkedin.com/in/trndd/"
+                href="https://www.linkedin.com/in/trindadematheus/"
                 target="_blank"
               >
                 <FaLinkedinIn />
